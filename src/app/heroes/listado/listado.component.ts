@@ -8,10 +8,10 @@ export class ListadoComponent {
   heroes: string[] = ['Spiderman', 'Batman', 'Mujer Maravilla', 'Goku'];
   // borrados: any[] =[];
   heroeBorrado: string = "";
-  borrarHeroe() {    
-    this.heroeBorrado = this.heroes.shift()||"";
-    
-    
+  borrarHeroe() {
+    this.heroeBorrado = this.heroes.shift() || "";
+
+
   }
 
 }
